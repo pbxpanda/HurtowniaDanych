@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProjektHD</Database>
+    <Server>WIN-E6VLVMUO30E</Server>
+    <ConnectionString>Data Source=WIN-E6VLVMUO30E;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>bi9dTds2DExK8tIaDMS+bncPZbs=11/24/2019 12:01:49 PM11/24/2019 11:49:51 AM</TimeStamp>
+        <ID>
+          <String>ZrodloDanych_HurtowniaWinaOLAP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Qt9iocwkV4cYR+sDQul6pcAdFro=12/8/2019 9:22:52 AM11/24/2019 11:53:53 AM</TimeStamp>
+        <ID>
+          <String>View Hurtownia Wina</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tC2/e/iD4ch9uDNr3P9/nu6pgFM=12/8/2019 8:28:35 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>DIM Stan Zamowienia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PtqH9VOjhlxZzLVDsMjcP33agZ8=12/8/2019 9:22:52 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>DIM Daty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ggqqO7HUSF84zcda1iBICES7V0E=12/8/2019 8:29:25 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>DIM Pracownik</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eBsGKJ5wHcCq2xbdTDsIfcWvELE=12/8/2019 8:29:34 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>DIM Klient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AqTza64Q5qTiXZRcymL0hjFHu9k=12/8/2019 9:22:52 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>FACT Zamowienie HDR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oS0KY3MbHpH2OX5zKYC7z9cr8nc=12/8/2019 8:31:24 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>DIM Wino</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DLPWR8cFQbFXVhUecJEWCHpvPoQ=12/8/2019 9:22:52 AM12/8/2019 8:24:56 AMBeexUSsKhsvTIWw2MHtGJYylBx8=12/8/2019 8:24:57 AM12/8/2019 8:24:56 AM</TimeStamp>
+        <ID>
+          <String>View Hurtownia Wina</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>kK/1IiYE5k39brC6LUBWNAO/7jU=11/24/2019 8:06:15 AM11/24/2019 8:06:15 AM</TimeStamp>
+      <ID>
+        <String>ProjektHD</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-08T17:23:12.67Z</LastDeployed>
+</DeploymentSnapshot>

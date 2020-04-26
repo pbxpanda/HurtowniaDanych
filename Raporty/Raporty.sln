@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Raporty", "Raporty\Raporty.rptproj", "{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Debug|Default.ActiveCfg = Debug
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Debug|Default.Build.0 = Debug
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Debug|Default.Deploy.0 = Debug
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.DebugLocal|Default.Build.0 = DebugLocal
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Release|Default.ActiveCfg = Release
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Release|Default.Build.0 = Release
+		{5C1885EC-FAE1-4D5C-A4E3-4A39A3AEDECF}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

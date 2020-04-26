@@ -1,0 +1,335 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6a032751-b973-4edc-a5ff-22bddb20c055" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FACT Zamowienie HDR</ID>
+  <Name>FACT Zamowienie HDR</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2838" scrolltop="-781" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="FACT_ZamowienieHDR" left="20" top="0" logicalid="5" controlid="1" masterid="0" hint1="0" hint2="0" width="4657" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00003112000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FACT_ZamowienieHDR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_Daty" left="-450" top="7197" logicalid="6" controlid="2" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_Daty" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="398" top="4119" logicalid="7" controlid="3" masterid="0" hint1="0" hint2="0" width="894" height="3578" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FACT_Zamo__IDDat__45F365D3]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="892" y="7197" />
+              <point x="892" y="5808" />
+              <point x="698" y="5808" />
+              <point x="698" y="4419" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-152" top="4119" logicalid="8" controlid="4" masterid="0" hint1="0" hint2="0" width="894" height="3578" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__FACT_Zamo__IDDat__44FF419A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="2" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="342" y="7197" />
+              <point x="342" y="5808" />
+              <point x="148" y="5808" />
+              <point x="148" y="4419" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2838</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-781</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-450</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="18e9c884-f771-4685-940a-69fd8c12016e">
+    <DataSourceViewID>View Hurtownia Wina</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ff188d27-334f-4cfa-bc0d-e70056a61ec1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="eab6c7ff-605f-4304-b663-86c98529d787">
+      <ID>ID Zamowienia</ID>
+      <Name>ID Zamowienia</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b786edf3-8bf0-433f-98d1-864db9e10e54">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1456c728-bb2b-4868-be73-98195cb1edea">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDZamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7b8aabcc-cfd3-457c-b3e0-31bfd05e86c1">
+          <AttributeID>ID Stan Zamowienia</AttributeID>
+          <Name>ID Stan Zamowienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f36fc118-2685-498a-8da0-229a7da19c30">
+          <AttributeID>ID Daty Zlozenia Zamowienia</AttributeID>
+          <Name>ID Daty Zlozenia Zamowienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c82eb80a-8ba6-43d5-8dc0-313513406431">
+          <AttributeID>ID Pracownika</AttributeID>
+          <Name>ID Pracownika</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b68e6a8e-9bd9-4764-91a8-a81cb2a606b8">
+          <AttributeID>ID Daty Wysylki</AttributeID>
+          <Name>ID Daty Wysylki</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="71591664-6265-4443-ad40-1a8963d71d3f">
+          <AttributeID>ID Klienta</AttributeID>
+          <Name>ID Klienta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="96da1e8b-ef0a-4336-aab6-5607c50d886d">
+          <AttributeID>Rok</AttributeID>
+          <Name>Rok</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9c906da-de1d-4395-8271-f5ab8184efd8">
+          <AttributeID>Kwartal</AttributeID>
+          <Name>Kwartal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="916623f7-d3c0-4292-900b-0a0c86eac716">
+          <AttributeID>Miesiac</AttributeID>
+          <Name>Miesiac</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="178bb854-7e7a-4871-9f05-e9654da4ab54">
+          <AttributeID>Nazwa Miesiaca</AttributeID>
+          <Name>Nazwa Miesiaca</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de7f6fbd-0e35-41ff-9141-8c38395a48a0">
+      <ID>ID Stan Zamowienia</ID>
+      <Name>ID Stan Zamowienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="32c93e76-fb8f-4a0e-a585-66514567b2c5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc22883c-d236-48f1-aeca-17f705bec861">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDStanZamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d64fba4-a292-4a34-8c29-996ed2b1930a">
+      <ID>ID Daty Zlozenia Zamowienia</ID>
+      <Name>ID Daty Zlozenia Zamowienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a90174b2-009e-4f0c-bb16-ac6b6a7c9c86">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bfde9332-c99d-421a-a1ae-d94b75a9e352">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDDatyZlozeniaZamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61d7d6aa-1ae9-4ae2-aad0-75cff4f10744">
+      <ID>ID Pracownika</ID>
+      <Name>ID Pracownika</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40d8926c-05bb-4cfe-bfc4-4ade5545343a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0376ffe-577f-4c74-8836-f88f3e134c9c">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDPracownika</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="908f9081-f26f-4e68-9f44-ff2f2822aed1">
+      <ID>ID Daty Wysylki</ID>
+      <Name>ID Daty Wysylki</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a659d93-550a-4ac9-b714-e04b6a4abb4d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c930691-a5c5-46cf-8e6d-3526c77de677">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDDatyWysylki</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3db32533-5ecc-499b-9113-6c51ad91f1bc">
+      <ID>ID Klienta</ID>
+      <Name>ID Klienta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c5183d98-2759-4a12-9f16-b7c9f1d65a3e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc1035da-8455-494f-8ed5-ebe8fba44a82">
+            <TableID>dbo_FACT_ZamowienieHDR</TableID>
+            <ColumnID>IDKlienta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1b0d9984-9dd9-4657-905a-72a8f4968184">
+      <ID>Rok</ID>
+      <Name>Rok</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c816e048-3ed1-4675-a003-9fb81d054c53">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5417371-0a43-41f7-920b-889fa0502fa0">
+            <TableID>dbo_DIM_Daty</TableID>
+            <ColumnID>Rok</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="550690fa-9768-44a3-ae29-c5b4770bcbdc">
+      <ID>Kwartal</ID>
+      <Name>Kwartal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4fe1003-dbab-4086-adac-6d00d8727497">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4cefaeb2-5923-4e62-b5b0-33213a72cb64">
+            <TableID>dbo_DIM_Daty</TableID>
+            <ColumnID>Kwartal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf7d83e6-4a78-4428-b79c-9782f96d482f">
+      <ID>Miesiac</ID>
+      <Name>Miesiac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="46abc3a4-93c5-4a2e-9527-4b403fcbd8f3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="feb4f6b1-81e8-4146-80b2-dc1377f45a14">
+            <TableID>dbo_DIM_Daty</TableID>
+            <ColumnID>Miesiac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4a21c5ac-60ae-4874-adc8-16c5b2cc7f91">
+      <ID>Nazwa Miesiaca</ID>
+      <Name>Nazwa Miesiaca</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="853d5ba3-2cf7-4a2e-a995-dea0312a9b41">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aec3a21b-d9b8-4d50-84a0-cece9be1acff">
+            <TableID>dbo_DIM_Daty</TableID>
+            <ColumnID>NazwaMiesiaca</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
